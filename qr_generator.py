@@ -99,11 +99,20 @@ def generate_qr_for_file(token: str, base_url: str = None):
     """
     Returns (img_path, url) where url is the full access URL that QR encodes.
     base_url should be a full URL like https://yourdomain/access?token=...
+    If base_url does NOT include the token, we append it automatically.
     """
     if base_url is None:
         raise ValueError("base_url must be provided")
 
-    secure_url = base_url
+    # If base_url already contains ?, append correctly
+    if "token=" not in base_url:
+        if "?" in base_url:
+            secure_url = f"{base_url}&token={token}"
+        else:
+            secure_url = f"{base_url}?token={token}"
+    else:
+        secure_url = base_url  # already has token
+
     qr = qrcode.QRCode(version=1, box_size=10, border=4)
     qr.add_data(secure_url)
     qr.make(fit=True)
