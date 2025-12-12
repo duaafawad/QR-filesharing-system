@@ -15,7 +15,7 @@ input{ background: rgba(255,255,255,0.05); border:1px solid #606060; color:white
 .btn-matte{ background:#1a1a1a; color:#d4d4d4; border:1px solid #555; text-transform:uppercase; width:100%; padding:8px; margin-top:8px; }
 .btn-confirm{ background:#2e2e2e; color:white; border:1px solid #666; padding:10px 18px; border-radius:6px; display:inline-block; text-decoration:none; }
 #status-msg{ margin-top:10px; font-size:14px; }
-.form-download{ text-align:center; margin-top:15px; }
+.form-download{ text-align:center; margin-top:15px; display:none; }
 </style>
 
 <script>
@@ -54,9 +54,9 @@ window.onload=function(){
 
 <div id="status-msg"></div>
 
-<div class="form-download">
+<div class="form-download" id="downloadForm">
     <form method="GET" action="{{ url_for('download', token=token) }}">
-        <button id="downloadBtn" type="submit" class="btn-confirm" disabled>Download File</button>
+        <button type="submit" class="btn-confirm">Download File</button>
     </form>
 </div>
 </div>
@@ -65,11 +65,10 @@ window.onload=function(){
 function onVerify(){
     const entered = document.getElementById("userChecksum").value.trim();
     const status = document.getElementById("status-msg");
-    const downloadBtn = document.getElementById("downloadBtn");
+    const downloadForm = document.getElementById("downloadForm");
     const params = new URLSearchParams();
     params.append("userChecksum", entered);
 
-    // POST to the same URL (server expects form-encoded body)
     fetch(window.location.pathname + window.location.search, {
         method: "POST",
         headers: {"Content-Type":"application/x-www-form-urlencoded"},
@@ -78,16 +77,16 @@ function onVerify(){
         if (data && data.success) {
             status.textContent = "Checksum verified — download enabled.";
             status.style.color = "lightgreen";
-            downloadBtn.disabled = false;
+            downloadForm.style.display = "block";
         } else {
             status.textContent = "Checksum does NOT match.";
             status.style.color = "salmon";
-            downloadBtn.disabled = true;
+            downloadForm.style.display = "none";
         }
     }).catch(err=>{
         status.textContent = "Verification failed (network/server).";
         status.style.color = "salmon";
-        downloadBtn.disabled = true;
+        downloadForm.style.display = "none";
     });
 }
 </script>

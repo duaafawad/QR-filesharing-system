@@ -1,6 +1,5 @@
-# app.py
 from flask import Flask, render_template, request, session, redirect, url_for, send_file, send_from_directory, jsonify
-import os, hashlib, time, base64
+import os, hashlib, base64
 from io import BytesIO
 from werkzeug.utils import secure_filename
 from Crypto.Cipher import AES
@@ -63,7 +62,6 @@ def file_checksum(path: str) -> str:
     return h.hexdigest()
 
 # ---------- Routes ----------
-
 @app.route("/", methods=["GET"])
 def index():
     return render_template("index.html")
@@ -81,19 +79,20 @@ def upload():
     original_path = os.path.join(UPLOAD_FOLDER, filename)
     encrypted_path = original_path + ".enc"
 
-    # save original, compute checksum, encrypt with random AES key, remove original
+    # Save original file and compute checksum
     f.save(original_path)
     checksum = file_checksum(original_path)
 
-    aes_key = os.urandom(32)  # 256-bit
+    # Encrypt file with AES key
+    aes_key = os.urandom(32)
     encrypt_file_with_key(original_path, encrypted_path, aes_key)
     os.remove(original_path)
 
-    # token & save
+    # Save token with the same AES key
     token = generate_secure_token()
-    save_token(token, encrypted_path, password, expiry_seconds=3600)
+    save_token(token, encrypted_path, password, expiry_seconds=3600, aes_key=aes_key)
 
-    # generate QR using your live domain
+    # Generate QR
     access_url = f"{BACKEND_URL}/access?token={token}"
     qr_img_path, secure_url = generate_qr_for_file(token, base_url=access_url)
     qr_filename = os.path.basename(qr_img_path)
