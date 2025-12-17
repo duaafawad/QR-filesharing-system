@@ -4,5 +4,199 @@
     "expiry": 1765468022,
     "password_hash": "OM9KEKrqV7uHdwJA9a7J4w==:200000:8971b4226ac235b16acfefd0753783a34c72ecc152820b6f6763f23fc54991fc",
     "aes_key_b64": "2bXDHeCtSGjlqOgYln02jgY2jWJ6onRFaRFBISBGAsk="
+  },
+  "0f2fd5a39dee95d575c29389cc4e19d7": {
+    "file_name": "uploads\\Assignment_4.docx.enc",
+    "expiry": 1765470021,
+    "password_hash": "oQdX7rgIuASrS6bbbir7Kw==:200000:4afdfef19251d59a6304003c4c060e6b30b5c38198fb407ffe7f328560755473",
+    "aes_key_b64": "8suL8Y0WfcAeWw7lKdXY4fI/BcBClZc9qymbcIJCpEI="
+  },
+  "0fb3f6134520ba9684af3170e1216c2d": {
+    "file_name": "uploads\\6c620742c9e4c55678b230675507f62e1c5550db.pdf.enc",
+    "expiry": 1765470563,
+    "password_hash": "CrjqA3sS1YFjiHL1DIQRAA==:200000:7ec2bff1e8dd9e7e8efecbd3ab9621c90f141c0a3e326724431b2a91ec22c79e",
+    "aes_key_b64": "5Pz/0KgjxTX9uF30yrK7JJZt5eHKdZzZnOsZYQ8uQLU="
+  },
+  "7af7fdb876118e9632b8ffac97dec800": {
+    "file_name": "uploads\\assignment_2.docx.enc",
+    "expiry": 1765471509,
+    "password_hash": "xUYBR3Z2jtoh+qQ7rhrLzw==:200000:ac65edecda21af34384937a4c174c3444ed078a9b3757a6cada8c516ff5fc082",
+    "aes_key_b64": "BTevTWoNoflnFkpQ3hbHhQDdmZtXtSVkA0EezZ/5Xa0="
+  },
+  "58e7fa55e976f248cd40540373f5c2ec": {
+    "file_name": "uploads\\Diffie_Hellman.py.enc",
+    "expiry": 1765471584,
+    "password_hash": "qZAwGDAx6cEr5oSjTId/+g==:200000:f25e58d99b6cf162d72046abc962746e9ef63faacf3fd1db2a7c104a0312bb86",
+    "aes_key_b64": "xWa7CyAT6pUcwb2ddSRJesQrAO7PF4qoDAlMjV1SQPI="
+  },
+  "91f9af61b7527da1495d8c7c31cae1d6": {
+    "file_name": "uploads\\Elliptic_Curve_Cryptography.docx.enc",
+    "expiry": 1765472712,
+    "password_hash": "FOqXxBPGmJWLHFrXc/Hm6g==:200000:b5b4827a5c839f3a59ea68f991719e4a957b958ab37cacace98a0158c1a68d02",
+    "aes_key_b64": "cSTswbI7p/a5kjsB/mFKEAYAw5xXELDsA7kO6Vnf0P8="
+  },
+  "7f87060a697b0440a3e0b63086ea156b": {
+    "file_name": "uploads\\Block_cipher_Lecture_BCT_III1.pdf.enc",
+    "expiry": 1765473572,
+    "password_hash": "aHdq9kfuW3EUgyEwmQU9Bg==:200000:42bd0b5c56dc7bacc515527962c5dd93bb2d1da446475d34b3bc3b0023116d57",
+    "aes_key_b64": "JvKSTSZ0YkzksYNdOOnecHSWQHaVD6z35JvlvAO33xo="
+  },
+  "cbaa63d3070a4c0ef5ef8b8ad5816256": {
+    "file_name": "uploads\\Block_cipher_Lecture_BCT_III1.pdf.enc",
+    "expiry": 1765473945,
+    "password_hash": "hBbJu04uaHH3oZH9CoJ5BA==:200000:71c21cef6bcc4e8258c33816f048612cfd536440aec662329c6349e886cd1c81",
+    "aes_key_b64": "C8U6mLh5a3PnoXblSs7i/09dGhrsHp2Q1BzPkvSFy3Q=",
+    "checksum": "80dd888070078c21ae776107ce0968cc9fd8a6714929d4ac5414c1829e822f9f"
+  },
+  "d47dc35796494f9b60ea2a6f4a4f8479": {
+    "file_name": "uploads\\Block_cipher_Lecture_BCT_III1.pdf.enc",
+    "expiry": 1765474140,
+    "password_hash": "IpFye1u1jSjiwyf+Aomc1g==:200000:e1132f5190f6a08d38c7f74457d1ace6740f9adbf03a2d3bba944b0a321c837f",
+    "aes_key_b64": "0gBjvBpzrUZTqD6SrusdKHvZKuRnETpBSxHP9EQ9ofc=",
+    "checksum": "80dd888070078c21ae776107ce0968cc9fd8a6714929d4ac5414c1829e822f9f"
+  },
+  "0963ac93ff4462e4ab3b76513bca9397": {
+    "file_name": "uploads\\Block_cipher_Lecture_BCT_III1.pdf.enc",
+    "expiry": 1765474480,
+    "password_hash": "pE1UO6Tsz/22xLvtKOr5kA==:200000:2462f05c9cfeabba294429d4c71dc6794919cb76d6f6810a225ee0ec3a669018",
+    "aes_key_b64": "oBSLegVU4I2Ca58htrl81uEl2vAWAM5pm5cfy5sJ8h0="
+  },
+  "6f93517127994a735c333993d356587c": {
+    "file_name": "uploads\\Block_cipher_Lecture_BCT_III1.pdf.enc",
+    "expiry": 1765474740,
+    "password_hash": "PSfr2+T1yoTrqDV4NvguLQ==:200000:bdde110daef019e709a48386d94b599cbecd9ee93d965b049f5c11f0c79567c9",
+    "aes_key_b64": "JrgFjVn/794VSpmcvWzHanARrbp18eshHKfbzpg7xFI="
+  },
+  "effcf6182ca839cbac16f8ef9cfb80c7": {
+    "file_name": "uploads\\Block_cipher_Lecture_BCT_III1.pdf.enc",
+    "expiry": 1765475009,
+    "password_hash": "4WZ7dZMtciRFzXsUDz6a0Q==:200000:61eec1d8727dc00facb815de50cdb21d230d7c2b9d831da4e8c6ea82ad284019",
+    "aes_key_b64": "GU36fZAbDkRIZ5ZodGgeWQCKITY6P+juww9JQ29oWMs="
+  },
+  "ddfe212560174b52fd17158d31f547ca": {
+    "file_name": "uploads\\Cryptanalysis_Lecture_BCTII1.pdf.enc",
+    "expiry": 1765475114,
+    "password_hash": "H49Hb/OzNhlkMSR7l/tJsQ==:200000:53119963a063bb91e75c43f98ccc4bf8cbeccbfcb0e0765fa9110f0dc9b59db3",
+    "aes_key_b64": "WdVaaXiILhBw083FPOKX7m7Qcaw9tTtY+o3M+tV/454="
+  },
+  "b08300b003bfcda96cb8336a291fb15a": {
+    "file_name": "uploads\\unit_9.docx.enc",
+    "expiry": 1765515457,
+    "password_hash": "PDjz/gdeF20xVLA/KQLReA==:200000:0851b4e8bca83cd200e350b557d6846631df9ae3b34ea5032ae7b6a9bdb87731",
+    "aes_key_b64": "kdH3wd9fiiXs3S0Q6HauFAGwUlz804asUPjuJlx4TQI="
+  },
+  "cd54e201cffd7d07eca4fa7e4ccf5343": {
+    "file_name": "uploads\\exercise_7.2.pdf.enc",
+    "expiry": 1765976517,
+    "password_hash": "TaqdqFaMuIGItBCH/K/zkA==:200000:68ab20c645b97e18b7ff15522c121284081b24c3f3130c32d657b6b49c487e0f",
+    "aes_key_b64": "KFYeLW+w5Dy6lHLW5F6U53zwSoDzXk54gTca7Bfdb2w=",
+    "owner": "noor",
+    "scan_count": 1,
+    "download_count": 0,
+    "last_scan_ts": 1765972973,
+    "last_download_ts": null
+  },
+  "3cd5a29a4831693e7b2435856354949e": {
+    "file_name": "uploads\\Midpoint-Formula-Exercise-72.pdf.enc",
+    "expiry": 1765976660,
+    "password_hash": "Auesctq55Yu8LjPiUM8GBA==:200000:87339174f329f92949caeb639f90f8ac1cfd91d48fdeb2272cb893ecb04695cb",
+    "aes_key_b64": "zzZbVg+0bVBv+ghpSKfSV7Rwp9igC9VFds02AmjVMr0=",
+    "owner": "noor",
+    "scan_count": 1,
+    "download_count": 1,
+    "last_scan_ts": 1765973086,
+    "last_download_ts": 1765973107
+  },
+  "0949e33bee55439dbb42670b0d0b20b6": {
+    "file_name": "uploads\\Midpoint-Formula-Exercise-72.pdf.enc",
+    "expiry": 1765976949,
+    "password_hash": "9vpyYlacm3W/9IJGQxOW1A==:200000:8790a989e8b283494ce7789a35be7c7b0f9e837e0cf7909b6e93bdc44f4597c3",
+    "aes_key_b64": "9RwUa7AElWkg1QwNn8oyicmT+sBfD6iO2DGCMzK9S1w=",
+    "owner": "noor",
+    "scan_count": 2,
+    "download_count": 1,
+    "last_scan_ts": 1765975256,
+    "last_download_ts": 1765973431,
+    "scan_users": [
+      "saba"
+    ]
+  },
+  "97e34d9af0506a9fc76f35dcceab2f91": {
+    "file_name": "uploads\\Midpoint-Formula-Exercise-72.pdf.enc",
+    "expiry": 1765977369,
+    "password_hash": "Gz3NRqz3+nrMzQkv1TUGAg==:200000:670372a2bf970b3325ac683c00b809d54e790594c6b93ae1485a58abed07fb89",
+    "aes_key_b64": "ZhnUlq8I7ii02FM3DJS0rthk+uZHvfpl34WSHykXzvo=",
+    "owner": "noor",
+    "scan_count": 1,
+    "download_count": 1,
+    "last_scan_ts": 1765973903,
+    "last_download_ts": 1765973921,
+    "scan_users": [
+      "saba"
+    ],
+    "download_users": [
+      "saba"
+    ],
+    "allowed_users": [
+      "saba"
+    ],
+    "revoked": true
+  },
+  "85c223afc6babd83af4df426ecd5051d": {
+    "file_name": "uploads\\exercise_7.2.pdf.enc",
+    "expiry": 1765978305,
+    "password_hash": "+C+T1VnrJ5wbtV6Fi6429A==:200000:0473e58bbeb245223f1167fd0a60fda0db4b1658bd52cb70993ada85d83c7212",
+    "aes_key_b64": "6glkS2VMe9V9PUer10dwUdj7MYmanBGi/FedI2+B2Ks=",
+    "owner": "noor",
+    "scan_count": 2,
+    "download_count": 2,
+    "last_scan_ts": 1765975392,
+    "last_download_ts": 1765975410,
+    "scan_users": [
+      "saba"
+    ],
+    "download_users": [
+      "saba"
+    ],
+    "allowed_users": [
+      "saba"
+    ],
+    "revoked": false
+  },
+  "4a0b3260137d439aa5df52c66e1b9e20": {
+    "file_name": "uploads\\7.1.docx.enc",
+    "expiry": 1765979387,
+    "password_hash": "YtNPvCSJONGz1q9iM5F57g==:200000:c16d8b37980ac2c74b9a32a5e7d4112e7080a786670be4941421c1bb0ee38500",
+    "aes_key_b64": "6XIJ2jyPYv2bD3sSgo5MCChpQffjoWTA2kVXpaFma8k=",
+    "owner": "noor",
+    "scan_count": 1,
+    "download_count": 0,
+    "last_scan_ts": 1765975868,
+    "last_download_ts": null,
+    "scan_users": [
+      "noorsaba"
+    ],
+    "download_users": [],
+    "allowed_users": [
+      "saba"
+    ],
+    "revoked": false
+  },
+  "79ab9c9cd2ce66177461adc26e575efe": {
+    "file_name": "uploads\\exercise_7.2.pdf.enc",
+    "expiry": 1765980713,
+    "password_hash": "y3gGX8x9bv5IzChlirGOUA==:200000:ad8309c78048c0ad3534720bd9c43e8e3cd7aaf3a48bffb464aba2a4831c888c",
+    "aes_key_b64": "HNf+XkNKh0nffsV2dfCHw3zbT0M+qQeH1CI+Sxe23NQ=",
+    "owner": "noor",
+    "scan_count": 0,
+    "download_count": 0,
+    "last_scan_ts": null,
+    "last_download_ts": null,
+    "scan_users": [],
+    "download_users": [],
+    "allowed_users": [
+      "saba"
+    ],
+    "revoked": false
   }
 }
