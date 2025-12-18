@@ -15,6 +15,7 @@ body{ background: radial-gradient(circle at top, #0a0a12, #050507, #020203); col
 .top-bar a:hover{text-decoration:underline;}
 input{ background: rgba(255,255,255,0.05); border:1px solid #606060; color:white; width:100%; padding:8px; border-radius:4px; margin-bottom:10px; }
 .btn-primary-custom{ background:#2e2e2e; color:white; border:1px solid #666; padding:10px 18px; border-radius:6px; }
+.password-hint{ color:#cbd6ff; }
 </style>
 <script>
 window.onload=function(){
@@ -56,7 +57,7 @@ window.onload=function(){
     <form method="POST" action="{{ url_for('account') }}">
         <input type="password" name="current_password" placeholder="Current password" required>
         <input type="password" name="new_password" placeholder="New password" required>
-        <div class="text-muted" style="font-size:11px;">New password must be at least 10 characters, with 1 uppercase, 1 number and 1 special character.</div>
+        <div class="password-hint" style="font-size:11px;">New password must be at least 10 characters, with 1 uppercase, 1 number and 1 special character.</div>
         <button type="submit" class="btn-primary-custom mt-2">Update Password</button>
     </form>
 </div>

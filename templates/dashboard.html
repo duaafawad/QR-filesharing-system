@@ -9,16 +9,17 @@
 <style>
 body{ background: radial-gradient(circle at top, #0a0a12, #050507, #020203); color:#d1d1d1; font-family:'Share Tech Mono', monospace; min-height:100vh; overflow-y:auto; overflow-x:hidden; position:relative; }
 #floating-container{ position:fixed; top:0; left:0; width:100%; height:100vh; pointer-events:none; z-index:1;}
-.panel{ max-width:900px; margin:80px auto; padding:30px; background: rgba(20,20,30,0.65); border-radius:14px; border:2px solid #3a3a3a; box-shadow:0 0 12px #3a9efb44; z-index:10; position:relative; }
-.top-bar{ max-width:900px; margin:20px auto 0; display:flex; justify-content:space-between; align-items:center; z-index:2000; position:relative; font-size:16px;}
+.panel{ max-width:1180px; margin:80px auto; padding:32px 34px; background: rgba(20,20,30,0.65); border-radius:14px; border:2px solid #3a3a3a; box-shadow:0 0 12px #3a9efb44; z-index:10; position:relative; }
+.top-bar{ max-width:1180px; margin:20px auto 0; display:flex; justify-content:space-between; align-items:center; z-index:2000; position:relative; font-size:16px;}
 .top-bar a{ color:#9cd2ff; text-decoration:none;}
 .top-bar a:hover{text-decoration:underline;}
-table{ font-size:13px; }
+.table-wrapper{ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size:14px; }
+table{ font-size:14px; }
 th, td{ vertical-align:middle; }
 .badge-status{ font-size:11px; }
 .dropdown-menu{ z-index:3000; }
-.brand-title{ font-size:1.25rem; letter-spacing:0.08em; }
-.user-icon{ font-size:1.4rem; }
+.brand-title{ font-size:1.45rem; letter-spacing:0.10em; }
+.user-icon{ font-size:1.6rem; }
 </style>
 <script>
 window.onload=function(){
@@ -61,7 +62,7 @@ window.onload=function(){
 <div class="panel">
     <h3 class="mb-3">My Shared QR Codes</h3>
     {% if tokens %}
-    <div class="table-responsive">
+    <div class="table-responsive table-wrapper">
         <table class="table table-dark table-striped table-sm align-middle">
             <thead>
                 <tr>
