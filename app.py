@@ -30,8 +30,11 @@ UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(QR_FOLDER, exist_ok=True)
 
-# Use localhost for testing
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:8000")
+# Base URL used inside QR links; default to your Koyeb deployment, overridable via BACKEND_URL env
+BACKEND_URL = os.environ.get(
+    "BACKEND_URL",
+    "https://organisational-blanch-danbrown-1358c46a.koyeb.app",
+)
 
 
 def current_user():
